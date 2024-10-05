@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "expenses": [
+      {
+        "id": 1,
+        "description": "coffee",
+        "amount": 4,
+        "currency": "EUR",
+        "date": "2024-10-05T11:32:41.519Z",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "lastFourDigits": "1234",
+            "expiryDate": "03/28"
+          }
+        },
+        "isIncoming": true,
+        "category": "Drinks",
+        "tags": [
+          "Breakfast"
+        ],
+        "isPaid": true
+      },
+      {
+        "id": 2,
+        "description": "Pasta",
+        "amount": 12,
+        "currency": "EUR",
+        "date": "2024-10-05T11:34:54.057Z",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "025548512"
+        },
+        "isIncoming": true,
+        "category": "food",
+        "tags": [
+          "Dinner",
+          "Launch"
+        ],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 1000,
+      "notificationThreshold": 0.9,
+      "isActive": true
+    }
+  },
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "expenses": [
+      {
+        "id": 1,
+        "description": "coffee",
+        "amount": 4,
+        "currency": "EUR",
+        "date": "2024-10-05T11:32:41.519Z",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "lastFourDigits": "1234",
+            "expiryDate": "03/28"
+          }
+        },
+        "isIncoming": true,
+        "category": "Drinks",
+        "tags": [
+          "Breakfast"
+        ],
+        "isPaid": true
+      },
+      {
+        "id": 2,
+        "description": "Pasta",
+        "amount": 12,
+        "currency": "EUR",
+        "date": "2024-10-05T11:34:54.057Z",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "025548512"
+        },
+        "isIncoming": true,
+        "category": "food",
+        "tags": [
+          "Dinner",
+          "Launch"
+        ],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 1000,
+      "notificationThreshold": 0.9,
+      "isActive": true
+    }
+  }
+]
